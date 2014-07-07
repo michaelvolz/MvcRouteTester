@@ -62,7 +62,7 @@ namespace MvcRouteTester.Common
 
 		private static void LoadMvcAssembly()
 		{
-			mvcAssembly = Assembly.Load("System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
+			mvcAssembly = Assembly.Load("System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
 
 			if (mvcAssembly == null)
 			{
